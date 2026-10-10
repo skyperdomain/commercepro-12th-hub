@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CommercePro 12th Hub | Ultimate CBSE Class 12 Commerce Mastery</title>
+    <title>CommercePro 12th Hub | CBSE Class 12 Commerce Mastery</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <script src="https://unpkg.com/lucide@latest"></script>
     <script>
@@ -41,13 +41,13 @@
 </head>
 <body class="bg-slate-50 text-slate-800 dark:bg-slate-950 dark:text-slate-100 min-h-screen flex flex-col transition-colors duration-300">
 
-    <!-- Top Banner -->
+    <!-- Top Announcement Bar -->
     <div class="bg-gradient-to-r from-indigo-600 via-purple-600 to-indigo-700 text-white text-xs sm:text-sm py-2 px-4 text-center font-medium shadow-inner flex items-center justify-center gap-2">
         <i data-lucide="sparkles" class="w-4 h-4 animate-pulse"></i>
-        <span>CBSE Class 12 Commerce Ultimate Hub: Daily Automated Study Material & Practice Sets</span>
+        <span>CBSE Class 12 Commerce Ultimate Hub: NCERT Blueprints, Solved Papers, High-Yield Q&A & Live Practice Quizzes</span>
     </div>
 
-    <!-- Header -->
+    <!-- Sticky Navigation Header -->
     <header class="sticky top-0 z-50 glass-card border-b border-slate-200 dark:border-slate-800 shadow-sm">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-20 flex items-center justify-between">
             <div class="flex items-center gap-3">
@@ -60,6 +60,16 @@
                 </div>
             </div>
 
+            <!-- Navigation Links -->
+            <nav class="hidden lg:flex items-center gap-1 font-semibold text-sm">
+                <button onclick="switchTab('overview')" class="nav-btn px-4 py-2 rounded-lg transition text-indigo-600 dark:text-indigo-400 bg-indigo-50 dark:bg-indigo-950/50" data-target="overview">Overview</button>
+                <button onclick="switchTab('accountancy')" class="nav-btn px-4 py-2 rounded-lg transition hover:bg-slate-100 dark:hover:bg-slate-900" data-target="accountancy">Accountancy</button>
+                <button onclick="switchTab('bst')" class="nav-btn px-4 py-2 rounded-lg transition hover:bg-slate-100 dark:hover:bg-slate-900" data-target="bst">Business Studies</button>
+                <button onclick="switchTab('economics')" class="nav-btn px-4 py-2 rounded-lg transition hover:bg-slate-100 dark:hover:bg-slate-900" data-target="economics">Economics</button>
+                <button onclick="switchTab('papers')" class="nav-btn px-4 py-2 rounded-lg transition hover:bg-slate-100 dark:hover:bg-slate-900 flex items-center gap-1.5" data-target="papers"><i data-lucide="file-text" class="w-4 h-4"></i> Sample Papers</button>
+                <button onclick="switchTab('quiz')" class="nav-btn px-4 py-2 rounded-lg transition hover:bg-slate-100 dark:hover:bg-slate-900 flex items-center gap-1.5 text-emerald-600 dark:text-emerald-400" data-target="quiz"><i data-lucide="award" class="w-4 h-4"></i> Practice Quiz</button>
+            </nav>
+
             <div class="flex items-center gap-3">
                 <button onclick="toggleDarkMode()" class="p-2.5 rounded-xl border border-slate-200 dark:border-slate-800 bg-white dark:bg-slate-900 hover:bg-slate-100 dark:hover:bg-slate-800 transition shadow-sm" aria-label="Toggle Theme">
                     <i data-lucide="sun" class="w-5 h-5 hidden dark:block text-amber-400"></i>
@@ -69,39 +79,186 @@
         </div>
     </header>
 
-    <!-- Main Content -->
-    <main class="flex-grow max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8 w-full space-y-8">
-        
-        <!-- Hero Section -->
-        <div class="relative overflow-hidden rounded-3xl bg-gradient-to-br from-indigo-900 via-slate-900 to-violet-950 text-white p-8 sm:p-12 shadow-2xl">
-            <div class="relative z-10 max-w-2xl space-y-4">
-                <span class="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-indigo-500/20 border border-indigo-400/30 text-indigo-300 text-xs font-bold uppercase tracking-widest">
-                    <i data-lucide="shield-check" class="w-3.5 h-3.5"></i> CBSE Class 12 Board Exam 2026
-                </span>
-                <h2 class="text-3xl sm:text-5xl font-black tracking-tight leading-tight">Cracking 95%+ in <span class="bg-gradient-to-r from-indigo-400 to-violet-300 bg-clip-text text-transparent">Class 12 Commerce</span></h2>
-                <p class="text-slate-300 text-sm sm:text-base">Daily automated study updates, high-yield practice questions, and board exam strategies.</p>
-            </div>
-        </div>
+    <!-- Main Content Container -->
+    <main class="flex-grow max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8 w-full space-y-10">
 
-        <!-- Today's Automated Daily Update Card -->
-        <div id="dailyUpdateCard" class="space-y-4">
-            <div class="p-6 rounded-3xl bg-slate-100 dark:bg-slate-900 text-center animate-pulse">
-                <p class="text-sm font-semibold text-slate-500">Loading today's fresh study material...</p>
+        <!-- ================= TAB 1: OVERVIEW ================= -->
+        <section id="tab-overview" class="tab-content space-y-8">
+            <!-- Hero Banner -->
+            <div class="relative overflow-hidden rounded-3xl bg-gradient-to-br from-indigo-900 via-slate-900 to-violet-950 text-white p-8 sm:p-12 shadow-2xl">
+                <div class="relative z-10 max-w-2xl space-y-4">
+                    <span class="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-indigo-500/20 border border-indigo-400/30 text-indigo-300 text-xs font-bold uppercase tracking-widest">
+                        <i data-lucide="shield-check" class="w-3.5 h-3.5"></i> CBSE Class 12 Board Exam 2026
+                    </span>
+                    <h2 class="text-3xl sm:text-5xl font-black tracking-tight leading-tight">Cracking 95%+ in <span class="bg-gradient-to-r from-indigo-400 to-violet-300 bg-clip-text text-transparent">Class 12 Commerce</span></h2>
+                    <p class="text-slate-300 text-sm sm:text-base leading-relaxed">Your definitive dream-study destination. Access subject blueprints, case study breakdowns, sample papers, and daily automated practice sets.</p>
+                </div>
             </div>
-        </div>
+
+            <!-- TODAY'S DAILY AUTO-UPDATED QUESTION BOX -->
+            <div id="dailyUpdateCard" class="space-y-4">
+                <!-- Dynamically injected from daily-content.json -->
+            </div>
+
+            <!-- Subject Cards Grid -->
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+                <div onclick="switchTab('accountancy')" class="glass-card p-6 rounded-3xl cursor-pointer hover:border-indigo-500 transition space-y-3">
+                    <div class="w-10 h-10 rounded-xl bg-indigo-50 dark:bg-indigo-950 text-indigo-600 flex items-center justify-center font-bold">
+                        <i data-lucide="calculator" class="w-5 h-5"></i>
+                    </div>
+                    <h3 class="text-xl font-bold">Accountancy (055)</h3>
+                    <p class="text-xs text-slate-500 dark:text-slate-400">Partnership, Company Shares, Debentures & Cash Flow Statements.</p>
+                </div>
+                <div onclick="switchTab('bst')" class="glass-card p-6 rounded-3xl cursor-pointer hover:border-violet-500 transition space-y-3">
+                    <div class="w-10 h-10 rounded-xl bg-violet-50 dark:bg-violet-950 text-violet-600 flex items-center justify-center font-bold">
+                        <i data-lucide="briefcase" class="w-5 h-5"></i>
+                    </div>
+                    <h3 class="text-xl font-bold">Business Studies (054)</h3>
+                    <p class="text-xs text-slate-500 dark:text-slate-400">Principles of Management, Functions, Financial Markets & Marketing.</p>
+                </div>
+                <div onclick="switchTab('economics')" class="glass-card p-6 rounded-3xl cursor-pointer hover:border-emerald-500 transition space-y-3">
+                    <div class="w-10 h-10 rounded-xl bg-emerald-50 dark:bg-emerald-950 text-emerald-600 flex items-center justify-center font-bold">
+                        <i data-lucide="trending-up" class="w-5 h-5"></i>
+                    </div>
+                    <h3 class="text-xl font-bold">Economics (030)</h3>
+                    <p class="text-xs text-slate-500 dark:text-slate-400">Macroeconomics (National Income, BoP) & Indian Economic Development.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- ================= TAB 2: ACCOUNTANCY ================= -->
+        <section id="tab-accountancy" class="tab-content hidden space-y-6">
+            <div class="bg-gradient-to-r from-indigo-800 to-indigo-950 text-white p-8 rounded-3xl shadow-xl">
+                <span class="px-3 py-1 rounded-full bg-indigo-500/30 text-indigo-200 text-xs font-bold uppercase tracking-wider">Subject Code: 055</span>
+                <h2 class="text-3xl font-black mt-2">Accountancy Blueprints & Topics</h2>
+                <p class="text-slate-300 text-sm mt-1">Detailed chapter weightages and high-probability board numericals.</p>
+            </div>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                <div class="glass-card p-6 rounded-3xl space-y-2">
+                    <h3 class="font-extrabold text-lg">Part A: Partnership Accounts (36 Marks)</h3>
+                    <p class="text-xs text-slate-500">Goodwill valuation, Admission, Retirement, Death, and Dissolution of partnership firms.</p>
+                </div>
+                <div class="glass-card p-6 rounded-3xl space-y-2">
+                    <h3 class="font-extrabold text-lg">Part A: Company Accounts (24 Marks)</h3>
+                    <p class="text-xs text-slate-500">Issue & Forfeiture of Shares, Re-issue journal entries, and Debentures issue mechanisms.</p>
+                </div>
+                <div class="glass-card p-6 rounded-3xl space-y-2">
+                    <h3 class="font-extrabold text-lg">Part B: Financial Statement Analysis (12 Marks)</h3>
+                    <p class="text-xs text-slate-500">Comparative statements, Common-size statements, and Accounting Ratios formulas.</p>
+                </div>
+                <div class="glass-card p-6 rounded-3xl space-y-2">
+                    <h3 class="font-extrabold text-lg">Part B: Cash Flow Statement (8 Marks)</h3>
+                    <p class="text-xs text-slate-500">Operating, Investing, and Financing activities adjustments according to AS-3.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- ================= TAB 3: BUSINESS STUDIES ================= -->
+        <section id="tab-bst" class="tab-content hidden space-y-6">
+            <div class="bg-gradient-to-r from-violet-800 to-purple-950 text-white p-8 rounded-3xl shadow-xl">
+                <span class="px-3 py-1 rounded-full bg-violet-500/30 text-violet-200 text-xs font-bold uppercase tracking-wider">Subject Code: 054</span>
+                <h2 class="text-3xl font-black mt-2">Business Studies Chapter Breakdown</h2>
+                <p class="text-slate-300 text-sm mt-1">Case study focused approach aligned with CBSE marking criteria.</p>
+            </div>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                <div class="glass-card p-6 rounded-3xl space-y-2">
+                    <h3 class="font-extrabold text-lg">Principles & Functions of Management</h3>
+                    <p class="text-xs text-slate-500">Fayol's 14 Principles, Taylor's Scientific Management, Planning, Organizing, Staffing, Directing & Controlling.</p>
+                </div>
+                <div class="glass-card p-6 rounded-3xl space-y-2">
+                    <h3 class="font-extrabold text-lg">Business Finance & Marketing</h3>
+                    <p class="text-xs text-slate-500">Financial Decisions, Capital Structure, Money & Capital Markets, SEBI functions, and Marketing 4Ps.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- ================= TAB 4: ECONOMICS ================= -->
+        <section id="tab-economics" class="tab-content hidden space-y-6">
+            <div class="bg-gradient-to-r from-emerald-800 to-teal-950 text-white p-8 rounded-3xl shadow-xl">
+                <span class="px-3 py-1 rounded-full bg-emerald-500/30 text-emerald-200 text-xs font-bold uppercase tracking-wider">Subject Code: 030</span>
+                <h2 class="text-3xl font-black mt-2">Economics Core Concepts</h2>
+                <p class="text-slate-300 text-sm mt-1">Macroeconomics & Indian Economic Development.</p>
+            </div>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                <div class="glass-card p-6 rounded-3xl space-y-2">
+                    <h3 class="font-extrabold text-lg">Macroeconomics (40 Marks)</h3>
+                    <p class="text-xs text-slate-500">National Income methods, Money & Banking, Aggregate Demand & Multiplier, Government Budget & BoP.</p>
+                </div>
+                <div class="glass-card p-6 rounded-3xl space-y-2">
+                    <h3 class="font-extrabold text-lg">Indian Economic Development (40 Marks)</h3>
+                    <p class="text-xs text-slate-500">1947-1990 development experience, 1991 LPG reforms, current rural/employment challenges, and neighbor comparisons.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- ================= TAB 5: SAMPLE PAPERS ================= -->
+        <section id="tab-papers" class="tab-content hidden space-y-6">
+            <div class="bg-gradient-to-r from-amber-700 to-orange-900 text-white p-8 rounded-3xl shadow-xl">
+                <h2 class="text-3xl font-black">CBSE Solved Sample Papers</h2>
+                <p class="text-slate-200 text-sm mt-1">Full-length 3-hour practice papers with marking schemes.</p>
+            </div>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+                <div class="glass-card p-6 rounded-3xl space-y-3">
+                    <span class="text-xs font-bold text-indigo-600">Accountancy (055)</span>
+                    <h4 class="font-bold">2026 Board Practice Set 1</h4>
+                    <button onclick="alert('Downloading Accountancy Sample Paper...')" class="w-full py-2 bg-indigo-600 hover:bg-indigo-500 text-white font-bold text-xs rounded-xl">Download Paper</button>
+                </div>
+                <div class="glass-card p-6 rounded-3xl space-y-3">
+                    <span class="text-xs font-bold text-violet-600">Business Studies (054)</span>
+                    <h4 class="font-bold">2026 Case Study Special Paper</h4>
+                    <button onclick="alert('Downloading Business Studies Sample Paper...')" class="w-full py-2 bg-violet-600 hover:bg-violet-500 text-white font-bold text-xs rounded-xl">Download Paper</button>
+                </div>
+                <div class="glass-card p-6 rounded-3xl space-y-3">
+                    <span class="text-xs font-bold text-emerald-600">Economics (030)</span>
+                    <h4 class="font-bold">2026 Macro & IED Practice Paper</h4>
+                    <button onclick="alert('Downloading Economics Sample Paper...')" class="w-full py-2 bg-emerald-600 hover:bg-emerald-500 text-white font-bold text-xs rounded-xl">Download Paper</button>
+                </div>
+            </div>
+        </section>
+
+        <!-- ================= TAB 6: PRACTICE QUIZ ================= -->
+        <section id="tab-quiz" class="tab-content hidden space-y-6">
+            <div class="bg-gradient-to-r from-emerald-700 to-teal-900 text-white p-8 rounded-3xl shadow-xl">
+                <h2 class="text-3xl font-black">Interactive Practice Quiz</h2>
+                <p class="text-slate-200 text-sm mt-1">Test your concepts with instant evaluation.</p>
+            </div>
+            <div class="glass-card p-8 rounded-3xl max-w-2xl mx-auto space-y-4">
+                <div id="quizBox">
+                    <p class="font-bold text-lg mb-4">1. In Accountancy, when shares are forfeited, Share Capital Account is debited with:</p>
+                    <div class="space-y-2">
+                        <button onclick="alert('Correct Answer! Called-up value is debited.')" class="w-full text-left p-3 rounded-xl border border-slate-200 dark:border-slate-800 hover:bg-indigo-50 dark:hover:bg-slate-900 font-medium text-sm">A) Called-up Amount</button>
+                        <button onclick="alert('Incorrect. Try again!')" class="w-full text-left p-3 rounded-xl border border-slate-200 dark:border-slate-800 hover:bg-indigo-50 dark:hover:bg-slate-900 font-medium text-sm">B) Paid-up Amount</button>
+                        <button onclick="alert('Incorrect. Try again!')" class="w-full text-left p-3 rounded-xl border border-slate-200 dark:border-slate-800 hover:bg-indigo-50 dark:hover:bg-slate-900 font-medium text-sm">C) Face Value</button>
+                    </div>
+                </div>
+            </div>
+        </section>
 
     </main>
 
-    <footer class="bg-white dark:bg-slate-900 border-t border-slate-200 dark:border-slate-800 py-8 text-center text-xs text-slate-500">
-        © 2026 CommercePro Hub. Auto-updated via GitHub Actions.
+    <footer class="bg-white dark:bg-slate-900 border-t border-slate-200 dark:border-slate-800 py-8 text-center text-xs text-slate-500 mt-12">
+        © 2026 CommercePro Hub. All subjects included & daily auto-updated via GitHub Actions.
     </footer>
 
-    <!-- Script to Load Today's Content Automatically -->
+    <!-- Application Script -->
     <script>
         lucide.createIcons();
 
         function toggleDarkMode() {
             document.documentElement.classList.toggle('dark');
+        }
+
+        function switchTab(tabId) {
+            document.querySelectorAll('.tab-content').forEach(el => el.classList.add('hidden'));
+            document.getElementById('tab-' + tabId).classList.remove('hidden');
+
+            document.querySelectorAll('.nav-btn').forEach(btn => {
+                btn.classList.remove('text-indigo-600', 'dark:text-indigo-400', 'bg-indigo-50', 'dark:bg-indigo-950/50');
+                if(btn.getAttribute('data-target') === tabId) {
+                    btn.classList.add('text-indigo-600', 'dark:text-indigo-400', 'bg-indigo-50', 'dark:bg-indigo-950/50');
+                }
+            });
+            window.scrollTo({ top: 0, behavior: 'smooth' });
         }
 
         async function fetchDailyUpdate() {
@@ -115,14 +272,14 @@
                 if (latestPost) {
                     const dailyContainer = document.getElementById('dailyUpdateCard');
                     dailyContainer.innerHTML = `
-                        <div class="glass-card p-6 sm:p-8 rounded-3xl border border-indigo-200 dark:border-indigo-800 shadow-md space-y-4">
+                        <div class="glass-card p-6 sm:p-8 rounded-3xl border border-indigo-200 dark:border-indigo-800 shadow-md space-y-3">
                             <div class="flex items-center justify-between text-xs font-bold">
-                                <span class="px-3 py-1 rounded-full bg-indigo-100 dark:bg-indigo-950 text-indigo-600 dark:text-indigo-400">${latestPost.subject}</span>
+                                <span class="px-3 py-1 rounded-full bg-indigo-100 dark:bg-indigo-950 text-indigo-600 dark:text-indigo-400">⚡ Today's Daily Update • ${latestPost.subject}</span>
                                 <span class="text-slate-400">Date: ${latestPost.date}</span>
                             </div>
                             <h3 class="text-2xl font-black">${latestPost.title}</h3>
                             <p class="text-xs font-semibold text-slate-500 dark:text-slate-400">${latestPost.topic}</p>
-                            <div class="pt-3 border-t border-slate-200 dark:border-slate-800">${latestPost.content}</div>
+                            <div class="pt-3 border-t border-slate-200 dark:border-slate-800 text-sm">${latestPost.content}</div>
                         </div>
                     `;
                 }
