@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CommercePro 12th Hub | Ultimate CBSE Class 12 Commerce Mastery</title>
+    <title>CommercePro 12th Hub | Ultimate CBSE Class 12 Learning Portal</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <script src="https://unpkg.com/lucide@latest"></script>
     <script>
@@ -44,7 +44,7 @@
     <!-- Top Announcement Bar -->
     <div class="bg-gradient-to-r from-indigo-600 via-purple-600 to-indigo-700 text-white text-xs sm:text-sm py-2 px-4 text-center font-medium shadow-inner flex items-center justify-center gap-2">
         <i data-lucide="sparkles" class="w-4 h-4 animate-pulse"></i>
-        <span>CBSE Class 12 Commerce Dream Hub: Video Lectures, Chapter Notes, Important PYQs & Case Studies</span>
+        <span>CBSE Class 12 Commerce Mastery Portal: Notes, Video Masterclasses, PYQs & Daily Board Practice</span>
     </div>
 
     <!-- Header -->
@@ -56,7 +56,7 @@
                 </div>
                 <div>
                     <h1 class="text-xl font-extrabold tracking-tight bg-gradient-to-r from-indigo-600 to-violet-600 dark:from-indigo-400 dark:to-violet-400 bg-clip-text text-transparent">CommercePro 12</h1>
-                    <p class="text-xs text-slate-500 dark:text-slate-400 font-medium">NCERT & CBSE Board Mastery</p>
+                    <p class="text-xs text-slate-500 dark:text-slate-400 font-medium">PW & Xylem Inspired CBSE Hub</p>
                 </div>
             </div>
 
@@ -66,7 +66,8 @@
                 <button onclick="switchTab('accountancy')" class="nav-btn px-4 py-2 rounded-lg transition hover:bg-slate-100 dark:hover:bg-slate-900" data-target="accountancy">Accountancy</button>
                 <button onclick="switchTab('bst')" class="nav-btn px-4 py-2 rounded-lg transition hover:bg-slate-100 dark:hover:bg-slate-900" data-target="bst">Business Studies</button>
                 <button onclick="switchTab('economics')" class="nav-btn px-4 py-2 rounded-lg transition hover:bg-slate-100 dark:hover:bg-slate-900" data-target="economics">Economics</button>
-                <button onclick="switchTab('videos')" class="nav-btn px-4 py-2 rounded-lg transition hover:bg-slate-100 dark:hover:bg-slate-900 flex items-center gap-1 text-red-600" data-target="videos"><i data-lucide="video" class="w-4 h-4"></i> Video Hub</button>
+                <button onclick="switchTab('videos')" class="nav-btn px-4 py-2 rounded-lg transition hover:bg-slate-100 dark:hover:bg-slate-900 flex items-center gap-1 text-red-600" data-target="videos"><i data-lucide="youtube" class="w-4 h-4"></i> Video Hub</button>
+                <button onclick="switchTab('pyq')" class="nav-btn px-4 py-2 rounded-lg transition hover:bg-slate-100 dark:hover:bg-slate-900 flex items-center gap-1 text-amber-600" data-target="pyq"><i data-lucide="file-check" class="w-4 h-4"></i> PYQs & Papers</button>
                 <button onclick="switchTab('quiz')" class="nav-btn px-4 py-2 rounded-lg transition hover:bg-slate-100 dark:hover:bg-slate-900 flex items-center gap-1 text-emerald-600" data-target="quiz"><i data-lucide="award" class="w-4 h-4"></i> Practice Quiz</button>
             </nav>
 
@@ -82,15 +83,15 @@
     <!-- Main Content Container -->
     <main class="flex-grow max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8 w-full space-y-10">
 
-        <!-- ================= TAB 1: OVERVIEW / DASHBOARD ================= -->
+        <!-- ================= TAB 1: DASHBOARD ================= -->
         <section id="tab-overview" class="tab-content space-y-8">
             <div class="relative overflow-hidden rounded-3xl bg-gradient-to-br from-indigo-900 via-slate-900 to-violet-950 text-white p-8 sm:p-12 shadow-2xl">
                 <div class="relative z-10 max-w-2xl space-y-4">
                     <span class="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-indigo-500/20 border border-indigo-400/30 text-indigo-300 text-xs font-bold uppercase tracking-widest">
-                        <i data-lucide="shield-check" class="w-3.5 h-3.5"></i> CBSE Class 12 Board Exam 2026
+                        <i data-lucide="shield-check" class="w-3.5 h-3.5"></i> Target 95%+ in CBSE Board Exam 2026
                     </span>
-                    <h2 class="text-3xl sm:text-5xl font-black tracking-tight leading-tight">Cracking 95%+ in <span class="bg-gradient-to-r from-indigo-400 to-violet-300 bg-clip-text text-transparent">Class 12 Commerce</span></h2>
-                    <p class="text-slate-300 text-sm sm:text-base leading-relaxed">The ultimate student-driven preparation portal containing NCERT chapter notes, free video lectures, high-probability PYQs, case study scenarios, and daily auto-updated board questions.</p>
+                    <h2 class="text-3xl sm:text-5xl font-black tracking-tight leading-tight">Class 12 Commerce <span class="bg-gradient-to-r from-indigo-400 to-violet-300 bg-clip-text text-transparent">Complete Prep Vault</span></h2>
+                    <p class="text-slate-300 text-sm sm:text-base leading-relaxed">Built with the study methodologies of Physics Wallah and Xylem Learning. Access complete chapter notes, video playlists, 5-year PYQs, and daily automated questions.</p>
                 </div>
             </div>
 
@@ -101,27 +102,33 @@
                 </div>
             </div>
 
-            <!-- Feature Badges -->
-            <div class="grid grid-cols-2 md:grid-cols-4 gap-4">
-                <div onclick="switchTab('accountancy')" class="glass-card p-5 rounded-2xl cursor-pointer hover:border-indigo-500 transition space-y-2">
-                    <div class="w-8 h-8 rounded-lg bg-indigo-100 dark:bg-indigo-950 text-indigo-600 flex items-center justify-center font-bold"><i data-lucide="book-open" class="w-4 h-4"></i></div>
-                    <h4 class="font-bold text-sm">Chapter Notes</h4>
-                    <p class="text-xs text-slate-500">NCERT crisp summaries</p>
+            <!-- Core Modules Grid -->
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+                <div onclick="switchTab('accountancy')" class="glass-card p-6 rounded-3xl cursor-pointer hover:border-indigo-500 transition space-y-3 group">
+                    <div class="w-10 h-10 rounded-xl bg-indigo-50 dark:bg-indigo-950 text-indigo-600 flex items-center justify-center font-bold group-hover:scale-110 transition">
+                        <i data-lucide="calculator" class="w-5 h-5"></i>
+                    </div>
+                    <h3 class="text-xl font-extrabold">Accountancy (055)</h3>
+                    <p class="text-xs text-slate-500 dark:text-slate-400">Partnership, Goodwill, Forfeiture of Shares, Debentures, and Cash Flow notes.</p>
+                    <span class="text-xs font-bold text-indigo-600 flex items-center gap-1">Open Chapter Notes &rarr;</span>
                 </div>
-                <div onclick="switchTab('videos')" class="glass-card p-5 rounded-2xl cursor-pointer hover:border-red-500 transition space-y-2">
-                    <div class="w-8 h-8 rounded-lg bg-red-100 dark:bg-red-950 text-red-600 flex items-center justify-center font-bold"><i data-lucide="youtube" class="w-4 h-4"></i></div>
-                    <h4 class="font-bold text-sm">Free Video Hub</h4>
-                    <p class="text-xs text-slate-500">Curated lectures</p>
+
+                <div onclick="switchTab('bst')" class="glass-card p-6 rounded-3xl cursor-pointer hover:border-violet-500 transition space-y-3 group">
+                    <div class="w-10 h-10 rounded-xl bg-violet-50 dark:bg-violet-950 text-violet-600 flex items-center justify-center font-bold group-hover:scale-110 transition">
+                        <i data-lucide="briefcase" class="w-5 h-5"></i>
+                    </div>
+                    <h3 class="text-xl font-extrabold">Business Studies (054)</h3>
+                    <p class="text-xs text-slate-500 dark:text-slate-400">Principles of Management, Case Study decoding tricks, and Marketing Mix.</p>
+                    <span class="text-xs font-bold text-violet-600 flex items-center gap-1">Open Chapter Notes &rarr;</span>
                 </div>
-                <div onclick="switchTab('bst')" class="glass-card p-5 rounded-2xl cursor-pointer hover:border-violet-500 transition space-y-2">
-                    <div class="w-8 h-8 rounded-lg bg-violet-100 dark:bg-violet-950 text-violet-600 flex items-center justify-center font-bold"><i data-lucide="file-check" class="w-4 h-4"></i></div>
-                    <h4 class="font-bold text-sm">Important PYQs</h4>
-                    <p class="text-xs text-slate-500">Past 5 year board questions</p>
-                </div>
-                <div onclick="switchTab('quiz')" class="glass-card p-5 rounded-2xl cursor-pointer hover:border-emerald-500 transition space-y-2">
-                    <div class="w-8 h-8 rounded-lg bg-emerald-100 dark:bg-emerald-950 text-emerald-600 flex items-center justify-center font-bold"><i data-lucide="check-circle" class="w-4 h-4"></i></div>
-                    <h4 class="font-bold text-sm">Live Practice Quiz</h4>
-                    <p class="text-xs text-slate-500">Instant score tracking</p>
+
+                <div onclick="switchTab('economics')" class="glass-card p-6 rounded-3xl cursor-pointer hover:border-emerald-500 transition space-y-3 group">
+                    <div class="w-10 h-10 rounded-xl bg-emerald-50 dark:bg-emerald-950 text-emerald-600 flex items-center justify-center font-bold group-hover:scale-110 transition">
+                        <i data-lucide="trending-up" class="w-5 h-5"></i>
+                    </div>
+                    <h3 class="text-xl font-extrabold">Economics (030)</h3>
+                    <p class="text-xs text-slate-500 dark:text-slate-400">Macroeconomics numerical formulas, Multiplier, and Indian Economic Development.</p>
+                    <span class="text-xs font-bold text-emerald-600 flex items-center gap-1">Open Chapter Notes &rarr;</span>
                 </div>
             </div>
         </section>
@@ -132,38 +139,27 @@
                 <i data-lucide="arrow-left" class="w-4 h-4"></i> Back to Dashboard
             </button>
             <div class="bg-gradient-to-r from-indigo-800 to-indigo-950 text-white p-8 rounded-3xl shadow-xl space-y-2">
-                <span class="px-3 py-1 rounded-full bg-indigo-500/30 text-indigo-200 text-xs font-bold uppercase tracking-wider">Subject Code: 055 • Comprehensive Vault</span>
-                <h2 class="text-3xl font-black">Accountancy Mastery Hub</h2>
-                <p class="text-slate-300 text-sm">Chapter-wise NCERT revision notes, mandatory journal formats, and high-weightage PYQs.</p>
+                <span class="px-3 py-1 rounded-full bg-indigo-500/30 text-indigo-200 text-xs font-bold uppercase tracking-wider">Subject Code: 055 • NCERT Aligned</span>
+                <h2 class="text-3xl font-black">Accountancy Chapter-Wise Notes</h2>
+                <p class="text-slate-300 text-sm">Detailed journal formats, numerical formulas, and step-by-step problem-solving rules.</p>
             </div>
 
-            <!-- Notes & PYQs Tabs -->
             <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
-                <!-- Chapter Notes -->
-                <div class="glass-card p-6 rounded-3xl space-y-4">
-                    <h3 class="font-extrabold text-lg text-indigo-600 dark:text-indigo-400 flex items-center gap-2"><i data-lucide="book" class="w-5 h-5"></i> Chapter-Wise Formula & Rules</h3>
-                    <div class="space-y-3 text-xs text-slate-600 dark:text-slate-300">
-                        <div class="p-3 bg-slate-100 dark:bg-slate-900 rounded-xl space-y-1">
-                            <p class="font-bold text-slate-800 dark:text-slate-100">Partnership Goodwill Methods:</p>
-                            <p>• <strong>Average Profit Method:</strong> Goodwill = Avg Profit × No. of Years Purchase.</p>
-                            <p>• <strong>Super Profit Method:</strong> Super Profit = Avg Profit - Normal Profit. (Normal Profit = Capital Employed × NRR / 100).</p>
-                        </div>
-                        <div class="p-3 bg-slate-100 dark:bg-slate-900 rounded-xl space-y-1">
-                            <p class="font-bold text-slate-800 dark:text-slate-100">Issue & Forfeiture of Shares Journal Entries:</p>
-                            <p class="font-mono text-indigo-600 dark:text-indigo-400">Share Capital A/c ... Dr (Called-up amount)<br>Securities Premium A/c ... Dr (Unpaid premium)<br>&nbsp;&nbsp;To Share Forfeiture A/c (Amount received)<br>&nbsp;&nbsp;To Calls-in-Arrears A/c (Unpaid calls)</p>
-                        </div>
+                <div class="glass-card p-6 rounded-3xl space-y-3">
+                    <h3 class="font-extrabold text-lg text-indigo-600 dark:text-indigo-400">1. Accounting for Partnership Firms</h3>
+                    <div class="text-xs text-slate-600 dark:text-slate-300 space-y-2">
+                        <p>• <strong>Goodwill (Super Profit):</strong> $\text{Super Profit} = \text{Average Profit} - \text{Normal Profit}$. $\text{Goodwill} = \text{Super Profit} \times \text{Years Purchase}$.</p>
+                        <p>• <strong>Sacrificing Ratio:</strong> $\text{Old Share} - \text{New Share}$. Used for goodwill distribution among existing partners upon admission.</p>
                     </div>
                 </div>
 
-                <!-- Most Important PYQs -->
-                <div class="glass-card p-6 rounded-3xl space-y-4">
-                    <h3 class="font-extrabold text-lg text-indigo-600 dark:text-indigo-400 flex items-center gap-2"><i data-lucide="help-circle" class="w-5 h-5"></i> Most Important Board Questions (PYQs)</h3>
-                    <div class="space-y-3 text-xs">
-                        <div class="p-3 border border-slate-200 dark:border-slate-800 rounded-xl space-y-1">
-                            <span class="font-bold text-indigo-600">Q1 (6 Marks):</span>
-                            <p class="font-semibold text-slate-700 dark:text-slate-200">What adjustments are required in partners' capital accounts upon the admission of a new partner?</p>
-                            <p class="text-slate-500"><strong>Answer Key:</strong> Calculation of new profit sharing & sacrificing ratio, valuation and treatment of goodwill, revaluation of assets and reassessment of liabilities, distribution of accumulated profits/reserves, and capital adjustment.</p>
-                        </div>
+                <div class="glass-card p-6 rounded-3xl space-y-3">
+                    <h3 class="font-extrabold text-lg text-indigo-600 dark:text-indigo-400">2. Issue & Forfeiture of Shares</h3>
+                    <div class="p-3 bg-slate-100 dark:bg-slate-900 rounded-xl font-mono text-xs space-y-1">
+                        <p>Share Capital A/c ... Dr (Called-up Amount)</p>
+                        <p>Securities Premium A/c ... Dr (If unpaid)</p>
+                        <p>&nbsp;&nbsp;To Share Forfeiture A/c (Amount Received)</p>
+                        <p>&nbsp;&nbsp;To Unpaid Calls A/c (Calls in Arrears)</p>
                     </div>
                 </div>
             </div>
@@ -175,30 +171,24 @@
                 <i data-lucide="arrow-left" class="w-4 h-4"></i> Back to Dashboard
             </button>
             <div class="bg-gradient-to-r from-violet-800 to-purple-950 text-white p-8 rounded-3xl shadow-xl space-y-2">
-                <span class="px-3 py-1 rounded-full bg-violet-500/30 text-violet-200 text-xs font-bold uppercase tracking-wider">Subject Code: 054 • Case Study Special</span>
+                <span class="px-3 py-1 rounded-full bg-violet-500/30 text-violet-200 text-xs font-bold uppercase tracking-wider">Subject Code: 054 • NCERT Aligned</span>
                 <h2 class="text-3xl font-black">Business Studies Master Guide</h2>
-                <p class="text-slate-300 text-sm">Fayol & Taylor principles, Marketing 4Ps, and step-by-step case study decoding tactics.</p>
+                <p class="text-slate-300 text-sm">Fayol & Taylor principles, Marketing Mix, and Case Study decoding strategies.</p>
             </div>
 
             <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
-                <!-- Case Study Decoding Rules -->
                 <div class="glass-card p-6 rounded-3xl space-y-3">
-                    <h3 class="font-extrabold text-lg text-violet-600 dark:text-violet-400 flex items-center gap-2"><i data-lucide="target" class="w-5 h-5"></i> How to Solve BST Case Studies</h3>
+                    <h3 class="font-extrabold text-lg text-violet-600 dark:text-violet-400">Case Study Decoding Strategy</h3>
                     <ol class="list-decimal list-inside text-xs text-slate-600 dark:text-slate-300 space-y-2">
-                        <li><strong>Read the Question First:</strong> Scroll to the bottom of the case scenario and read the exact question asked before reading the story.</li>
-                        <li><strong>Highlight Keyword Clues:</strong> Words like "coordination", "span of management", or "functional structure" indicate specific chapters.</li>
-                        <li><strong>Quote Lines from Paragraph:</strong> Always quote specific lines from the given case to secure 100% full marks in CBSE board evaluation.</li>
+                        <li><strong>Read the final question first:</strong> Directly check what management term is asked before reading the story.</li>
+                        <li><strong>Identify Trigger Keywords:</strong> Look for specific words like "span of control", "delegation", or "demarketing".</li>
+                        <li><strong>Quote specific lines:</strong> In CBSE evaluation, quoting context lines from the case yields full marks.</li>
                     </ol>
                 </div>
 
-                <!-- High-Yield Case Study Sample -->
                 <div class="glass-card p-6 rounded-3xl space-y-3">
-                    <h3 class="font-extrabold text-lg text-violet-600 dark:text-violet-400 flex items-center gap-2"><i data-lucide="file-text" class="w-5 h-5"></i> High-Yield Board Case Scenario</h3>
-                    <div class="p-3 bg-violet-50 dark:bg-violet-950/40 rounded-xl space-y-2 text-xs">
-                        <p class="font-semibold">Case: Production Manager Piyush faced high cost per pair of shoes due to poor supervision. The CEO appointed Abhay to fix workforce allocation.</p>
-                        <p><strong>Identify the Management Function:</strong> Staffing.</p>
-                        <p><strong>Importance:</strong> Fills organizational roles with qualified personnel and improves operational efficiency.</p>
-                    </div>
+                    <h3 class="font-extrabold text-lg text-violet-600 dark:text-violet-400">Fayol's 14 Principles Summary</h3>
+                    <p class="text-xs text-slate-600 dark:text-slate-300 leading-relaxed">Division of Work, Authority & Responsibility, Discipline, Unity of Command, Unity of Direction, Subordination of Individual Interest, Remuneration, Centralisation, Scalar Chain, Order, Equity, Stability of Tenure, Initiative, and Esprit de Corps.</p>
                 </div>
             </div>
         </section>
@@ -209,23 +199,24 @@
                 <i data-lucide="arrow-left" class="w-4 h-4"></i> Back to Dashboard
             </button>
             <div class="bg-gradient-to-r from-emerald-800 to-teal-950 text-white p-8 rounded-3xl shadow-xl space-y-2">
-                <span class="px-3 py-1 rounded-full bg-emerald-500/30 text-emerald-200 text-xs font-bold uppercase tracking-wider">Subject Code: 030 • Macro & IED Vault</span>
+                <span class="px-3 py-1 rounded-full bg-emerald-500/30 text-emerald-200 text-xs font-bold uppercase tracking-wider">Subject Code: 030 • Macro & IED</span>
                 <h2 class="text-3xl font-black">Economics Master Guide</h2>
-                <p class="text-slate-300 text-sm">National Income methods, Investment Multiplier, and Indian Economy key facts.</p>
+                <p class="text-slate-300 text-sm">National Income formulas, Multiplier calculations, and Indian Economic Development key facts.</p>
             </div>
 
             <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
                 <div class="glass-card p-6 rounded-3xl space-y-3">
-                    <h3 class="font-extrabold text-lg text-emerald-600 dark:text-emerald-400">National Income Numericals Sheet</h3>
-                    <div class="p-3 bg-slate-100 dark:bg-slate-900 rounded-xl space-y-2 text-xs">
-                        <p>• <strong>Expenditure Method:</strong> $GDP_{MP} = C + I + G + (X - M)$.</p>
-                        <p>• <strong>Income Method:</strong> $NDP_{FC} = \text{COE} + \text{Operating Surplus} + \text{Mixed Income}$.</p>
-                        <p>• <strong>Value Added Method:</strong> $GVA_{MP} = \text{Value of Output} - \text{Intermediate Consumption}$.</p>
-                    </div>
+                    <h3 class="font-extrabold text-lg text-emerald-600 dark:text-emerald-400">National Income Formulas</h3>
+                    <ul class="text-xs text-slate-600 dark:text-slate-300 space-y-2">
+                        <li><strong>Expenditure Method:</strong> $GDP_{MP} = C + I + G + (X - M)$.</li>
+                        <li><strong>Income Method:</strong> $NDP_{FC} = \text{COE} + \text{Operating Surplus} + \text{Mixed Income}$.</li>
+                        <li><strong>Investment Multiplier ($k$):</strong> $k = \frac{1}{1 - MPC} = \frac{1}{MPS}$.</li>
+                    </ul>
                 </div>
+
                 <div class="glass-card p-6 rounded-3xl space-y-3">
-                    <h3 class="font-extrabold text-lg text-emerald-600 dark:text-emerald-400">Indian Economic Development Key Points</h3>
-                    <p class="text-xs text-slate-600 dark:text-slate-300 leading-relaxed">Focus heavily on 1991 Economic Reforms (LPG Policy), Land Reforms & Green Revolution achievements, Human Capital Formation indicators, and comparative growth rates of India, China, and Pakistan.</p>
+                    <h3 class="font-extrabold text-lg text-emerald-600 dark:text-emerald-400">Indian Economic Development Summary</h3>
+                    <p class="text-xs text-slate-600 dark:text-slate-300 leading-relaxed">Focuses on 1991 Economic Reforms (LPG Policy), Green Revolution achievements, Human Capital Formation indicators, and comparative growth analysis between India, China, and Pakistan.</p>
                 </div>
             </div>
         </section>
@@ -236,51 +227,75 @@
                 <i data-lucide="arrow-left" class="w-4 h-4"></i> Back to Dashboard
             </button>
             <div class="bg-gradient-to-r from-red-800 to-rose-950 text-white p-8 rounded-3xl shadow-xl space-y-2">
-                <span class="px-3 py-1 rounded-full bg-red-500/30 text-red-200 text-xs font-bold uppercase tracking-wider">Free Video Explanations</span>
-                <h2 class="text-3xl font-black">Class 12 Commerce Video Lecture Hub</h2>
-                <p class="text-slate-300 text-sm">Top curated free video lectures for rapid chapter revisions and numerical solutions.</p>
+                <span class="px-3 py-1 rounded-full bg-red-500/30 text-red-200 text-xs font-bold uppercase tracking-wider">Free Masterclasses</span>
+                <h2 class="text-3xl font-black">Class 12 Commerce Video Playlist Hub</h2>
+                <p class="text-slate-300 text-sm">Curated free revision playlists from PW Commerce Wallah and Xylem Commerce channels.</p>
             </div>
 
-            <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
-                <!-- Video 1 -->
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
                 <div class="glass-card p-4 rounded-3xl space-y-3">
-                    <div class="aspect-video bg-slate-900 rounded-2xl overflow-hidden flex items-center justify-center relative">
-                        <iframe class="w-full h-full" src="https://www.youtube.com/embed/videoseries?list=PL3EdypgfeNa0a-S_S_qXipX26T_LgA--a" title="Accountancy Playlist" frameborder="0" allowfullscreen></iframe>
+                    <div class="aspect-video bg-slate-900 rounded-2xl overflow-hidden">
+                        <iframe class="w-full h-full" src="https://www.youtube.com/embed/videoseries?list=PL3EdypgfeNa0a-S_S_qXipX26T_LgA--a" title="PW Commerce Wallah" frameborder="0" allowfullscreen></iframe>
                     </div>
-                    <h4 class="font-bold text-sm">Accountancy Full Revision Playlist</h4>
-                    <p class="text-xs text-slate-500">Complete Partnership & Company Accounts chapter tutorials.</p>
+                    <h4 class="font-bold text-sm">PW Commerce Wallah — Accountancy & BST One-Shots</h4>
+                    <p class="text-xs text-slate-500">Comprehensive one-shot revision streams for CBSE board exams.</p>
                 </div>
-                <!-- Video 2 -->
+
                 <div class="glass-card p-4 rounded-3xl space-y-3">
-                    <div class="aspect-video bg-slate-900 rounded-2xl overflow-hidden flex items-center justify-center relative">
-                        <iframe class="w-full h-full" src="https://www.youtube.com/embed/videoseries?list=PL3EdypgfeNa1j3sM_P0L-KjJ1S31fE_mH" title="BST Playlist" frameborder="0" allowfullscreen></iframe>
+                    <div class="aspect-video bg-slate-900 rounded-2xl overflow-hidden">
+                        <iframe class="w-full h-full" src="https://www.youtube.com/embed/videoseries?list=PL3EdypgfeNa32H-I44Wk_yM0eE2N1jY_x" title="Xylem Commerce" frameborder="0" allowfullscreen></iframe>
                     </div>
-                    <h4 class="font-bold text-sm">Business Studies Case Study Playlist</h4>
-                    <p class="text-xs text-slate-500">Principles of Management & Financial Markets masterclasses.</p>
-                </div>
-                <!-- Video 3 -->
-                <div class="glass-card p-4 rounded-3xl space-y-3">
-                    <div class="aspect-video bg-slate-900 rounded-2xl overflow-hidden flex items-center justify-center relative">
-                        <iframe class="w-full h-full" src="https://www.youtube.com/embed/videoseries?list=PL3EdypgfeNa32H-I44Wk_yM0eE2N1jY_x" title="Economics Playlist" frameborder="0" allowfullscreen></iframe>
-                    </div>
-                    <h4 class="font-bold text-sm">Macroeconomics Numericals Playlist</h4>
-                    <p class="text-xs text-slate-500">National Income & Income Determination numerical solving.</p>
+                    <h4 class="font-bold text-sm">Xylem Commerce Plus Two — Exam Booster Sessions</h4>
+                    <p class="text-xs text-slate-500">Full chapter marathons and important question discussions.</p>
                 </div>
             </div>
         </section>
 
-        <!-- ================= TAB 6: PRACTICE QUIZ ================= -->
+        <!-- ================= TAB 6: PYQs & SAMPLE PAPERS ================= -->
+        <section id="tab-pyq" class="tab-content hidden space-y-6">
+            <button onclick="switchTab('overview')" class="px-4 py-2 rounded-xl bg-slate-200 dark:bg-slate-800 text-xs font-bold flex items-center gap-2 hover:bg-amber-600 hover:text-white transition">
+                <i data-lucide="arrow-left" class="w-4 h-4"></i> Back to Dashboard
+            </button>
+            <div class="bg-gradient-to-r from-amber-800 to-orange-950 text-white p-8 rounded-3xl shadow-xl space-y-2">
+                <span class="px-3 py-1 rounded-full bg-amber-500/30 text-amber-200 text-xs font-bold uppercase tracking-wider">Board Question Bank</span>
+                <h2 class="text-3xl font-black">5-Year Past Papers & Model Answers</h2>
+                <p class="text-slate-300 text-sm">High-yield previous year questions solved with CBSE marking schemes.</p>
+            </div>
+
+            <div class="space-y-4">
+                <div class="glass-card p-6 rounded-3xl space-y-2">
+                    <div class="flex items-center justify-between text-xs font-bold text-indigo-600">
+                        <span>Accountancy • 6 Marks Question</span>
+                        <span>CBSE Board 2024</span>
+                    </div>
+                    <h4 class="font-bold text-base">Q: Differentiate between Dissolution of Partnership and Dissolution of Partnership Firm.</h4>
+                    <p class="text-xs text-slate-600 dark:text-slate-300 leading-relaxed"><strong>Answer Key:</strong> Dissolution of partnership refers to a change in the economic relation between partners (business continues), whereas dissolution of firm refers to the complete closure of business operations, realization of assets, and settlement of liabilities.</p>
+                </div>
+
+                <div class="glass-card p-6 rounded-3xl space-y-2">
+                    <div class="flex items-center justify-between text-xs font-bold text-violet-600">
+                        <span>Business Studies • 4 Marks Question</span>
+                        <span>CBSE Board 2023</span>
+                    </div>
+                    <h4 class="font-bold text-base">Q: Explain any four functions performed by a Financial Manager.</h4>
+                    <p class="text-xs text-slate-600 dark:text-slate-300 leading-relaxed"><strong>Answer Key:</strong> 1. Estimation of Capital Requirements. 2. Determination of Capital Composition. 3. Choice of Sources of Funds. 4. Investment of Funds & Management of Working Capital.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- ================= TAB 7: PRACTICE QUIZ ================= -->
         <section id="tab-quiz" class="tab-content hidden space-y-6">
             <button onclick="switchTab('overview')" class="px-4 py-2 rounded-xl bg-slate-200 dark:bg-slate-800 text-xs font-bold flex items-center gap-2 hover:bg-emerald-600 hover:text-white transition">
                 <i data-lucide="arrow-left" class="w-4 h-4"></i> Back to Dashboard
             </button>
             <div class="bg-gradient-to-r from-emerald-700 to-teal-900 text-white p-8 rounded-3xl shadow-xl space-y-2">
-                <h2 class="text-3xl font-black">Interactive Commerce Practice Quiz</h2>
-                <p class="text-slate-200 text-sm">Test your board exam readiness across Accountancy, BST, and Economics.</p>
+                <h2 class="text-3xl font-black">Live Practice Quiz Engine</h2>
+                <p class="text-slate-200 text-sm">Test your board concepts with real-time scoring.</p>
             </div>
+
             <div class="glass-card p-8 rounded-3xl max-w-2xl mx-auto space-y-4">
                 <div id="quizContainer">
-                    <!-- Loaded dynamically via JS -->
+                    <!-- Dynamic Quiz via JS -->
                 </div>
             </div>
         </section>
@@ -288,10 +303,10 @@
     </main>
 
     <footer class="bg-white dark:bg-slate-900 border-t border-slate-200 dark:border-slate-800 py-8 text-center text-xs text-slate-500 mt-12">
-        © 2026 CommercePro Hub. Built for CBSE Class 12 Commerce Board Success.
+        © 2026 CommercePro Hub. All rights reserved. Built for CBSE Class 12 Commerce Students.
     </footer>
 
-    <!-- Application Script -->
+    <!-- JavaScript Engine -->
     <script>
         lucide.createIcons();
 
@@ -341,17 +356,17 @@
 
         const quizQuestions = [
             {
-                q: "1. In Accountancy, when shares are forfeited, Share Capital Account is debited with:",
+                q: "1. When shares are forfeited, Share Capital Account is debited with:",
                 options: ["Called-up Amount", "Paid-up Amount", "Face Value", "Issue Price"],
                 ans: 0
             },
             {
-                q: "2. Which technique of Taylor advocates separating planning from execution using 8 specialists?",
-                options: ["Motion Study", "Functional Foremanship", "Standardisation", "Fatigue Study"],
-                ans: 1
+                q: "2. Which technique of Taylor recommends using 8 specialists to manage workers?",
+                options: ["Functional Foremanship", "Motion Study", "Standardisation", "Fatigue Study"],
+                ans: 0
             },
             {
-                q: "3. If MPC is 0.8, what is the value of the Investment Multiplier (k)?",
+                q: "3. If Marginal Propensity to Consume (MPC) is 0.8, what is the Multiplier (k)?",
                 options: ["1.25", "5", "10", "2"],
                 ans: 1
             }
@@ -373,7 +388,7 @@
             if(selected === quizQuestions[quizIdx].ans) {
                 alert("Correct Answer! 🎉");
             } else {
-                alert("Incorrect choice. Try again!");
+                alert("Incorrect. Try again!");
             }
             quizIdx++;
             renderQuiz();
