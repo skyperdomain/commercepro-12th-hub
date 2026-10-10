@@ -1,0 +1,31 @@
+name: Daily Commerce Content Update
+
+on:
+  schedule:
+    - cron: '0 0 * * *'
+  workflow_dispatch:
+
+jobs:
+  auto-update:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      - name: Setup Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.10'
+
+      - name: Execute Daily Content Update
+        run: python update_script.py
+
+      - name: Commit and Push Updated Content
+        run: |
+          git config --global user.name "CommercePro Bot"
+          git config --global user.email "bot@commercepro.internal"
+          git add daily-content.json
+          git commit -m "Automated Daily Study Material Update [$(date +'%Y-%m-%d')]" || exit 0
+          git push
