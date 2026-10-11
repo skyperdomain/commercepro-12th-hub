@@ -2,18 +2,25 @@
   {
     "date": "2026-10-10",
     "subject": "Accountancy",
-    "topic": "Partnership Accounting — Goodwill Valuation",
+    "topic": "Partnership Accounting \u2014 Goodwill Valuation",
     "title": "Daily High-Yield Focus: Capitalisation Method",
-    "content": "<p class='font-bold text-slate-800 dark:text-slate-100 mb-2'>Question:</p><p class='text-sm text-slate-600 dark:text-slate-300 mb-4'>A firm earned average profits of ₹1,00,000 during the last few years. The normal rate of return in a similar business is 10%. The total assets of the firm are ₹11,00,000 and liabilities are ₹2,00,000. Calculate Goodwill by Capitalisation of Average Profits Method.</p><div class='p-4 rounded-xl bg-indigo-50 dark:bg-indigo-950/50 border border-indigo-200 dark:border-indigo-800 text-sm space-y-1'><p class='font-bold text-indigo-700 dark:text-indigo-400'>Step-by-Step Solution:</p><p>1. Capitalised Value of Profits = (Average Profit × 100) / Normal Rate = (1,00,000 × 100) / 10 = ₹10,00,000</p><p>2. Net Assets = Total Assets - External Liabilities = 11,00,000 - 2,00,000 = ₹9,00,000</p><p>3. <strong>Goodwill</strong> = Capitalised Value - Net Assets = 10,00,000 - 9,00,000 = <strong>₹1,00,000</strong></p></div>",
+    "content": "<p class='font-bold text-slate-800 dark:text-slate-100 mb-2'>Question:</p><p class='text-sm text-slate-600 dark:text-slate-300 mb-4'>A firm earned average profits of \u20b91,00,000 during the last few years. The normal rate of return in a similar business is 10%. The total assets of the firm are \u20b911,00,000 and liabilities are \u20b92,00,000. Calculate Goodwill by Capitalisation of Average Profits Method.</p><div class='p-4 rounded-xl bg-indigo-50 dark:bg-indigo-950/50 border border-indigo-200 dark:border-indigo-800 text-sm space-y-1'><p class='font-bold text-indigo-700 dark:text-indigo-400'>Step-by-Step Solution:</p><p>1. Capitalised Value of Profits = (Average Profit \u00d7 100) / Normal Rate = (1,00,000 \u00d7 100) / 10 = \u20b910,00,000</p><p>2. Net Assets = Total Assets - External Liabilities = 11,00,000 - 2,00,000 = \u20b99,00,000</p><p>3. <strong>Goodwill</strong> = Capitalised Value - Net Assets = 10,00,000 - 9,00,000 = <strong>\u20b91,00,000</strong></p></div>",
     "quiz": {
       "question": "Goodwill calculated under Capitalisation Method uses which formula?",
       "options": [
         "Capitalised Value - Net Assets",
-        "Super Profit × Number of Years Purchase",
-        "Average Profit × Normal Rate of Return",
+        "Super Profit \u00d7 Number of Years Purchase",
+        "Average Profit \u00d7 Normal Rate of Return",
         "Total Assets - Total Liabilities"
       ],
       "correct": 0
     }
+  },
+  {
+    "date": "2026-10-11",
+    "subject": "Accountancy",
+    "topic": "Company Accounts \u2014 Forfeiture of Shares",
+    "title": "Daily Journal Entry Focus: Forfeiture at Premium",
+    "content": "<p class='text-sm text-slate-600 dark:text-slate-300 mb-3'><strong>Rule Breakdown:</strong> When shares issued at a premium are forfeited and premium was NOT received, Securities Premium Account must be debited!</p><div class='p-4 rounded-xl bg-indigo-50 dark:bg-indigo-950/50 border border-indigo-200 text-sm font-mono text-xs space-y-1'><p>Share Capital A/c ... Dr (Called-up value)</p><p>Securities Premium A/c ... Dr (Unpaid premium)</p><p>&nbsp;&nbsp;To Share Forfeiture A/c (Amount received)</p><p>&nbsp;&nbsp;To Unpaid Calls A/c (Amount due)</p></div>"
   }
 ]
