@@ -120,5 +120,12 @@
     "topic": "Macroeconomics \u2014 National Income Aggregates",
     "title": "Daily Numerical Focus: Real GDP vs Nominal GDP",
     "content": "<p class='text-sm text-slate-600 dark:text-slate-300 mb-3'><strong>Question:</strong> If Real GDP is \u20b9500 and Price Index (GDP Deflator) is 125, calculate Nominal GDP.</p><div class='p-4 rounded-xl bg-emerald-50 dark:bg-emerald-950/50 border border-emerald-200 text-sm space-y-1'><p class='font-bold text-emerald-700 dark:text-emerald-400'>Formula & Calculation:</p><p>GDP Deflator = (Nominal GDP / Real GDP) \u00d7 100</p><p>125 = (Nominal GDP / 500) \u00d7 100  \u279c  Nominal GDP = <strong>\u20b9625</strong></p></div>"
+  },
+  {
+    "date": "2026-10-26",
+    "subject": "Accountancy",
+    "topic": "Company Accounts \u2014 Forfeiture of Shares",
+    "title": "Daily Journal Entry Focus: Forfeiture at Premium",
+    "content": "<p class='text-sm text-slate-600 dark:text-slate-300 mb-3'><strong>Rule Breakdown:</strong> When shares issued at a premium are forfeited and premium was NOT received, Securities Premium Account must be debited!</p><div class='p-4 rounded-xl bg-indigo-50 dark:bg-indigo-950/50 border border-indigo-200 text-sm font-mono text-xs space-y-1'><p>Share Capital A/c ... Dr (Called-up value)</p><p>Securities Premium A/c ... Dr (Unpaid premium)</p><p>&nbsp;&nbsp;To Share Forfeiture A/c (Amount received)</p><p>&nbsp;&nbsp;To Unpaid Calls A/c (Amount due)</p></div>"
   }
 ]
